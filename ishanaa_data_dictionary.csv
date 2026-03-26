@@ -1,0 +1,140 @@
+column_name,source_question,description,data_type,values
+age_ordinal,Q1,Age group,Ordinal,"1=Under 18, 2=18-22, 3=23-27, 4=28-34, 5=35+"
+income_ordinal,Q4,Monthly income band,Ordinal,"0=No income, 1=Under 3K, 2=3-7K, 3=7-12K, 4=12-20K, 5=Above 20K"
+income_midpoint_AED,Q4,Income band midpoint in AED,Numeric,"0, 1500, 5000, 9500, 16000, 25000"
+wardrobe_count,Q5,Approx kurtis owned (midpoint),Numeric,"0, 3, 9, 16, 25"
+shopping_freq_ordinal,Q6,Shopping frequency,Ordinal,1=Rarely/Never to 6=Weekly
+spend_per_kurti_ordinal,Q9,Per-kurti spend band,Ordinal,1=Under 30 to 6=Above 250 AED
+spend_per_kurti_midpoint_AED,Q9,Per-kurti spend midpoint in AED (REGRESSION TARGET),Numeric,"15, 45, 80, 125, 200, 300"
+bundle_budget_ordinal,Q20,Bundle budget band,Ordinal,1=Under 80 to 5=Above 250 AED
+bundle_budget_midpoint_AED,Q20,Bundle budget midpoint in AED,Numeric,"40, 100, 150, 215, 300"
+return_anxiety_ordinal,Q24,Return/fit anxiety level,Ordinal,1=Never worried to 4=Frequently worried
+purchase_intent_ordinal,Q25,Purchase intent score (CLASSIFICATION TARGET),Ordinal,1=Definitely not to 5=Definitely would buy
+purchase_intent_binary,Q25,Binary: Interested (1) vs Not (0),Binary,"1=Probably/Definitely buy, 0=Might not/Probably not/Definitely not"
+occ_student,Q2,Occupation: student,Binary,0 or 1
+occ_working_professional,Q2,Occupation: working_professional,Binary,0 or 1
+occ_self-employed_freelancer,Q2,Occupation: self-employed_freelancer,Binary,0 or 1
+occ_homemaker,Q2,Occupation: homemaker,Binary,0 or 1
+occ_other,Q2,Occupation: other,Binary,0 or 1
+eth_south_asian,Q3,Ethnicity: south_asian,Binary,0 or 1
+eth_arab_middle_eastern,Q3,Ethnicity: arab_middle_eastern,Binary,0 or 1
+eth_southeast_asian,Q3,Ethnicity: southeast_asian,Binary,0 or 1
+eth_african,Q3,Ethnicity: african,Binary,0 or 1
+eth_western_european,Q3,Ethnicity: western_european,Binary,0 or 1
+eth_other,Q3,Ethnicity: other,Binary,0 or 1
+fit_relaxed,Q14,Fit preference: relaxed,Binary,0 or 1
+fit_regular,Q14,Fit preference: regular,Binary,0 or 1
+fit_slim,Q14,Fit preference: slim,Binary,0 or 1
+fit_flared,Q14,Fit preference: flared,Binary,0 or 1
+fashion_id_1,Q22,Fashion identity type 1,Binary,0 or 1
+fashion_id_2,Q22,Fashion identity type 2,Binary,0 or 1
+fashion_id_3,Q22,Fashion identity type 3,Binary,0 or 1
+fashion_id_4,Q22,Fashion identity type 4,Binary,0 or 1
+fashion_id_5,Q22,Fashion identity type 5,Binary,0 or 1
+ret_yes_frequently,Q24,Return anxiety: yes_frequently,Binary,0 or 1
+ret_sometimes,Q24,Return anxiety: sometimes,Binary,0 or 1
+ret_rarely,Q24,Return anxiety: rarely,Binary,0 or 1
+ret_never,Q24,Return anxiety: never,Binary,0 or 1
+brand_libas,Q7,Brand selection: libas,Binary,"0=not selected, 1=selected"
+brand_biba,Q7,Brand selection: biba,Binary,"0=not selected, 1=selected"
+brand_w_for_woman,Q7,Brand selection: w_for_woman,Binary,"0=not selected, 1=selected"
+brand_anouk_myntra,Q7,Brand selection: anouk_myntra,Binary,"0=not selected, 1=selected"
+brand_meesho_unbranded_sellers,Q7,Brand selection: meesho_unbranded_sellers,Binary,"0=not selected, 1=selected"
+brand_local_uae_stores_boutiques,Q7,Brand selection: local_uae_stores_boutiques,Binary,"0=not selected, 1=selected"
+brand_buy_during_india_visits,Q7,Brand selection: buy_during_india_visits,Binary,"0=not selected, 1=selected"
+brand_instagram_whatsapp_small_brands,Q7,Brand selection: instagram_whatsapp_small_brands,Binary,"0=not selected, 1=selected"
+brand_i_dont_buy_kurtis_currently,Q7,Brand selection: i_dont_buy_kurtis_currently,Binary,"0=not selected, 1=selected"
+channel_online_marketplaces_amazon_noon_namshi,Q8,Channel selection: online_marketplaces_amazon_noon_namshi,Binary,"0=not selected, 1=selected"
+channel_brand_websites_d2c_online_stores,Q8,Channel selection: brand_websites_d2c_online_stores,Binary,"0=not selected, 1=selected"
+channel_instagram_social_media_shops,Q8,Channel selection: instagram_social_media_shops,Binary,"0=not selected, 1=selected"
+channel_physical_stores_malls_in_uae,Q8,Channel selection: physical_stores_malls_in_uae,Binary,"0=not selected, 1=selected"
+channel_buy_from_india_trips_or_family_shipments,Q8,Channel selection: buy_from_india_trips_or_family_shipments,Binary,"0=not selected, 1=selected"
+channel_whatsapp_based_sellers,Q8,Channel selection: whatsapp_based_sellers,Binary,"0=not selected, 1=selected"
+trigger_upcoming_festival_occasion,Q10,Trigger selection: upcoming_festival_occasion,Binary,"0=not selected, 1=selected"
+trigger_sale_or_discount_offer,Q10,Trigger selection: sale_or_discount_offer,Binary,"0=not selected, 1=selected"
+trigger_saw_something_trending_on_social_media,Q10,Trigger selection: saw_something_trending_on_social_media,Binary,"0=not selected, 1=selected"
+trigger_need_for_daily_work_wardrobe_refresh,Q10,Trigger selection: need_for_daily_work_wardrobe_refresh,Binary,"0=not selected, 1=selected"
+trigger_new_season_or_collection_drop,Q10,Trigger selection: new_season_or_collection_drop,Binary,"0=not selected, 1=selected"
+trigger_gift_for_someone,Q10,Trigger selection: gift_for_someone,Binary,"0=not selected, 1=selected"
+trigger_impulse_mood_shopping,Q10,Trigger selection: impulse_mood_shopping,Binary,"0=not selected, 1=selected"
+style_straight_cut,Q11,Style selection: straight_cut,Binary,"0=not selected, 1=selected"
+style_a_line,Q11,Style selection: a_line,Binary,"0=not selected, 1=selected"
+style_shirt_style_collar,Q11,Style selection: shirt_collar,Binary,"0=not selected, 1=selected"
+style_anarkali_short_flared,Q11,Style selection: anarkali_short_flared,Binary,"0=not selected, 1=selected"
+style_peplum,Q11,Style selection: peplum,Binary,"0=not selected, 1=selected"
+style_asymmetric_high_low_hem,Q11,Style selection: asymmetric_high_low_hem,Binary,"0=not selected, 1=selected"
+style_crop_kurti,Q11,Style selection: crop_kurti,Binary,"0=not selected, 1=selected"
+style_kaftan_style,Q11,Style selection: kaftan_style,Binary,"0=not selected, 1=selected"
+fabric_pure_cotton,Q12,Fabric selection: pure_cotton,Binary,"0=not selected, 1=selected"
+fabric_cotton_linen_blend,Q12,Fabric selection: cotton_linen_blend,Binary,"0=not selected, 1=selected"
+fabric_rayon,Q12,Fabric selection: rayon,Binary,"0=not selected, 1=selected"
+fabric_georgette_chiffon,Q12,Fabric selection: georgette_chiffon,Binary,"0=not selected, 1=selected"
+fabric_silk_chanderi,Q12,Fabric selection: silk_chanderi,Binary,"0=not selected, 1=selected"
+fabric_muslin,Q12,Fabric selection: muslin,Binary,"0=not selected, 1=selected"
+fabric_denim_look_fabric,Q12,Fabric selection: denim_look_fabric,Binary,"0=not selected, 1=selected"
+fabric_no_preference,Q12,Fabric selection: no_preference,Binary,"0=not selected, 1=selected"
+color_pastels_peach_lavender_mint_blush,Q13,Color selection: pastels_peach_lavender_mint_blush,Binary,"0=not selected, 1=selected"
+color_earthy_tones_mustard_rust_olive_brown,Q13,Color selection: earthy_tones_mustard_rust_olive_brown,Binary,"0=not selected, 1=selected"
+color_jewel_tones_emerald_maroon_royal_blue_de,Q13,Color selection: jewel_tones_emerald_maroon_royal_blue_de,Binary,"0=not selected, 1=selected"
+color_neutrals_black_white_beige_grey,Q13,Color selection: neutrals_black_white_beige_grey,Binary,"0=not selected, 1=selected"
+color_bright_pop_colors_red_yellow_hot_pink_or,Q13,Color selection: bright_pop_colors_red_yellow_hot_pink_or,Binary,"0=not selected, 1=selected"
+color_multi_color_prints,Q13,Color selection: multi_prints,Binary,"0=not selected, 1=selected"
+print_florals,Q15,Print selection: florals,Binary,"0=not selected, 1=selected"
+print_geometric_abstract,Q15,Print selection: geometric_abstract,Binary,"0=not selected, 1=selected"
+print_block_print_jaipur_print,Q15,Print selection: block_jaipur_print,Binary,"0=not selected, 1=selected"
+print_solid_plain,Q15,Print selection: solid_plain,Binary,"0=not selected, 1=selected"
+print_stripes_checks,Q15,Print selection: stripes_checks,Binary,"0=not selected, 1=selected"
+print_embroidered_thread_work,Q15,Print selection: embroidered_thread_work,Binary,"0=not selected, 1=selected"
+print_mirror_work_sequins,Q15,Print selection: mirror_work_sequins,Binary,"0=not selected, 1=selected"
+print_digital_contemporary_prints,Q15,Print selection: digital_contemporary_prints,Binary,"0=not selected, 1=selected"
+sleeve_full_sleeves,Q16a,Sleeve selection: full_sleeves,Binary,"0=not selected, 1=selected"
+sleeve_3_4th_sleeves,Q16a,Sleeve selection: 3_4th_sleeves,Binary,"0=not selected, 1=selected"
+sleeve_short_half_sleeves,Q16a,Sleeve selection: short_half_sleeves,Binary,"0=not selected, 1=selected"
+sleeve_sleeveless,Q16a,Sleeve selection: sleeveless,Binary,"0=not selected, 1=selected"
+sleeve_bell_statement_sleeves,Q16a,Sleeve selection: bell_statement_sleeves,Binary,"0=not selected, 1=selected"
+neck_round_neck,Q16b,Neck selection: round_neck,Binary,"0=not selected, 1=selected"
+neck_v_neck,Q16b,Neck selection: v_neck,Binary,"0=not selected, 1=selected"
+neck_mandarin_band_collar,Q16b,Neck selection: mandarin_band_collar,Binary,"0=not selected, 1=selected"
+neck_boat_neck,Q16b,Neck selection: boat_neck,Binary,"0=not selected, 1=selected"
+neck_shirt_collar,Q16b,Neck selection: shirt_collar,Binary,"0=not selected, 1=selected"
+neck_keyhole_cut_out,Q16b,Neck selection: keyhole_cut_out,Binary,"0=not selected, 1=selected"
+length_hip_length_above_mid_thigh,Q16c,Length selection: hip_above_mid_thigh,Binary,"0=not selected, 1=selected"
+length_mid_thigh,Q16c,Length selection: mid_thigh,Binary,"0=not selected, 1=selected"
+length_just_above_knee,Q16c,Length selection: just_above_knee,Binary,"0=not selected, 1=selected"
+length_knee_length,Q16c,Length selection: knee_length,Binary,"0=not selected, 1=selected"
+bottom_jeans_denim,Q17,Bottom selection: jeans_denim,Binary,"0=not selected, 1=selected"
+bottom_leggings_jeggings,Q17,Bottom selection: leggings_jeggings,Binary,"0=not selected, 1=selected"
+bottom_palazzo_pants,Q17,Bottom selection: palazzo_pants,Binary,"0=not selected, 1=selected"
+bottom_cigarette_straight_pants,Q17,Bottom selection: cigarette_straight_pants,Binary,"0=not selected, 1=selected"
+bottom_skirts,Q17,Bottom selection: skirts,Binary,"0=not selected, 1=selected"
+bottom_dhoti_pants_tulip_pants,Q17,Bottom selection: dhoti_pants_tulip_pants,Binary,"0=not selected, 1=selected"
+bottom_sharara,Q17,Bottom selection: sharara,Binary,"0=not selected, 1=selected"
+occasion_daily_college_university_wear,Q18,Occasion selection: daily_college_university_wear,Binary,"0=not selected, 1=selected"
+occasion_office_workplace,Q18,Occasion selection: office_workplace,Binary,"0=not selected, 1=selected"
+occasion_casual_outings_errands,Q18,Occasion selection: casual_outings_errands,Binary,"0=not selected, 1=selected"
+occasion_festivals_diwali_eid_etc,Q18,Occasion selection: festivals_diwali_eid_etc,Binary,"0=not selected, 1=selected"
+occasion_family_gatherings_dinners,Q18,Occasion selection: family_gatherings_dinners,Binary,"0=not selected, 1=selected"
+occasion_parties_date_nights,Q18,Occasion selection: parties_date_nights,Binary,"0=not selected, 1=selected"
+occasion_weekend_lounging,Q18,Occasion selection: weekend_lounging,Binary,"0=not selected, 1=selected"
+occasion_i_dont_wear_kurtis_currently,Q18,Occasion selection: i_dont_wear_kurtis_currently,Binary,"0=not selected, 1=selected"
+pack_campus_essentials_3_daily_wear_cotton_ku,Q19,Pack selection: campus_essentials_3_daily_wear_cotton_ku,Binary,"0=not selected, 1=selected"
+pack_festive_glow_2_embroidered_silk_kurtis,Q19,Pack selection: festive_glow_2_embroidered_silk_kurtis,Binary,"0=not selected, 1=selected"
+pack_9_to_5_edit_3_workwear_kurtis,Q19,Pack selection: 9_to_5_edit_3_workwear_kurtis,Binary,"0=not selected, 1=selected"
+pack_vibe_check_drop_1_trendy_statement_piece,Q19,Pack selection: vibe_check_drop_1_trendy_statement_piece,Binary,"0=not selected, 1=selected"
+pack_none___i_prefer_buying_single_pieces,Q19,Pack selection: none___i_prefer_buying_single_pieces,Binary,"0=not selected, 1=selected"
+discount_flat_percentage_off_eg_20%_off,Q21,Discount selection: flat_percentage_off_eg_20%_off,Binary,"0=not selected, 1=selected"
+discount_buy_2_get_1_free,Q21,Discount selection: buy_2_get_1_free,Binary,"0=not selected, 1=selected"
+discount_free_delivery,Q21,Discount selection: free_delivery,Binary,"0=not selected, 1=selected"
+discount_combo_price_lower_than_individual_total,Q21,Discount selection: combo_price_lower_than_individual_total,Binary,"0=not selected, 1=selected"
+discount_first_order_discount,Q21,Discount selection: first_order_discount,Binary,"0=not selected, 1=selected"
+discount_referral_rewards,Q21,Discount selection: referral_rewards,Binary,"0=not selected, 1=selected"
+discount_i_dont_need_discounts___i_buy_if_i_like_,Q21,Discount selection: i_dont_need_discounts___i_buy_if_i_like_,Binary,"0=not selected, 1=selected"
+pain_sizing_is_inconsistent_across_brands,Q23,Pain selection: sizing_is_inconsistent_across_brands,Binary,"0=not selected, 1=selected"
+pain_fabric_quality_doesnt_match_product_phot,Q23,Pain selection: fabric_quality_doesnt_match_product_phot,Binary,"0=not selected, 1=selected"
+pain_limited_trendy_options_for_short_kurtis,Q23,Pain selection: limited_trendy_options_for_short_kurtis,Binary,"0=not selected, 1=selected"
+pain_too_expensive_for_the_quality_offered,Q23,Pain selection: too_expensive_for_the_quality_offered,Binary,"0=not selected, 1=selected"
+pain_poor_delivery_experience_to_uae_slow_dam,Q23,Pain selection: poor_delivery_experience_to_uae_slow_dam,Binary,"0=not selected, 1=selected"
+pain_difficult_or_costly_returns,Q23,Pain selection: difficult_or_costly_returns,Binary,"0=not selected, 1=selected"
+pain_cant_find_good_curated_sets_bundles,Q23,Pain selection: cant_find_good_curated_sets_bundles,Binary,"0=not selected, 1=selected"
+pain_not_enough_options_for_my_size,Q23,Pain selection: not_enough_options_for_my_size,Binary,"0=not selected, 1=selected"
+pain_no_major_frustrations,Q23,Pain selection: no_major_frustrations,Binary,"0=not selected, 1=selected"
